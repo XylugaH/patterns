@@ -8,7 +8,7 @@ public class ObservableImpl implements Observable {
   private List<Observer> observers;
 
   public ObservableImpl() {
-    this.observers = new ArrayList<Observer>();
+    this.observers = new ArrayList<>();
   }
 
   public void registerObserver(Observer observer) {
